@@ -44,7 +44,8 @@ dependencies {
     compile("org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}")
     compile("org.springframework.data:spring-data-rest-webmvc")
     
-    compile("org.hsqldb:hsqldb")
+    compile("mysql:mysql-connector-java")
+    
     
     compile("com.google.guava:guava:17.0")
     compile("com.squareup.retrofit:retrofit:1.6.0")
