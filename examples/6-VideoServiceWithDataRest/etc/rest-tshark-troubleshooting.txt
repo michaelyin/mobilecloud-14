@@ -1,0 +1,7 @@
+Rest service trouble shooting of encoding issue:
+
+on the server use tshark to capture traffic to a specific port, for ex., 8080:
+
+tshark -i eth1 -f 'dst port 8080' -w http.pcap
+
+download http.pcap to your computer and view it with wireshark.
